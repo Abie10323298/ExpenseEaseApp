@@ -128,6 +128,9 @@ git clone https://(https://github.com/Abie10323298/ExpenseEaseApp)
 - **Debt Manager:** Plan and track debt repayment progress
 - **Achievements:** Celebrate your financial milestones
 
+## Video Demonstration
+**Youtube Link**
+https://youtu.be/BFaVXYcVfNU?si=dEj_yT0a-Ty_YeEm
 ---
 
 Empower your financial journey with **ExpenseEase**—your all-in-one personal finance tracker.
