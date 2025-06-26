@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_dashboard" android:title="Dashboard" android:icon="@android:drawable/ic_menu_view" />
+    <item android:id="@+id/nav_add_expense" android:title="Add Expense" android:icon="@android:drawable/ic_input_add" />
+    <item android:id="@+id/nav_view_expenses" android:title="View Expenses" android:icon="@android:drawable/ic_menu_agenda" />
+    <item android:id="@+id/nav_budget_goal" android:title="Set Budget Goal" android:icon="@android:drawable/ic_menu_edit" />
+    <item android:id="@+id/nav_add_category" android:title="Add category" android:icon="@android:drawable/ic_menu_agenda" />
+    <item android:id="@+id/nav_view_category" android:title="View category" android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_gamification"
+        android:title="Gamification"
+ />
+    <item
+        android:id="@+id/nav_learning"
+        android:title="Learning"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+         />
+</menu>

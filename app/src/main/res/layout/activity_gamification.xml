@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryInverse"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Current Streak -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/streakTextview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="8dp"
+            android:text="Current Streak"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/streakText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_background2"
+            android:padding="8dp"
+            android:text="0"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Last Logged -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lastDateTextvie"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="8dp"
+            android:text="Last Logged:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lastDateText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_background2"
+            android:padding="8dp"
+            android:text="N/A"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Level -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/levelTextview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="8dp"
+            android:text="Level"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/levelText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_background2"
+            android:padding="8dp"
+
+            android:text="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- Points -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pointsTextview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="8dp"
+            android:text="Points:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pointsText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_background2"
+            android:padding="8dp"
+            android:text="0"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Achievements Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:padding="8dp"
+        android:text="Achievements:"
+        android:textStyle="bold" />
+
+    <!-- Badge List -->
+    <ListView
+        android:id="@+id/badgeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border_background2"
+        android:padding="8dp" />
+</LinearLayout>

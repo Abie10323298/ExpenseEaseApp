@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryInverse"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/learningTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="12dp"
+            android:text="💡 Financial Learning"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="10dp"
+            android:text="1. Set a Monthly Budget"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background2"
+            android:padding="10dp"
+            android:text="Track how much money you can spend in a month and stick to it." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="10dp"
+            android:text="2. Log Expenses Daily"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background2"
+            android:padding="10dp"
+            android:text="Enter your expenses every day to understand where your money goes." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="10dp"
+            android:text="3. Spend Less Than You Earn"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background2"
+            android:padding="10dp"
+            android:text="Don’t let your expenses exceed your salary. Use the app to monitor that." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/actionModeSplitBackground"
+            android:padding="10dp"
+            android:text="4. Use Categories Wisely"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background2"
+            android:padding="10dp"
+            android:text="Categorize expenses correctly so you know where to cut costs." />
+    </LinearLayout>
+</ScrollView>
