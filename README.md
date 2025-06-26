@@ -54,8 +54,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ExpenseEase.git
-cd ExpenseEase
+git clone https://(https://github.com/Abie10323298/ExpenseEaseApp)
 ```
 
 ### 2. Open the Project
